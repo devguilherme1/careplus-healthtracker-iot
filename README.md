@@ -37,15 +37,7 @@ Desenvolver um sistema IoT capaz de:
 A arquitetura do sistema segue o modelo de IoT em camadas:
 
 
-[ESP32 + Sensores]
-        ↓
-      MQTT
-        ↓
-[Broker HiveMQ]
-        ↓
-[Node-RED (FlowFuse)]
-        ↓
-[Processamento / Debug]
+[ESP32 + Sensores] → MQTT → [Broker HiveMQ] → [Node-RED (FlowFuse)] → [Processamento / Debug]
 
 
 
@@ -113,19 +105,23 @@ careplus/healthtracker/esp32_001
 
 📁 Estrutura do Repositório
 
-├── README.md
-├── sketch.ino
-├── diagram.json
-├── node-red-flow.json
-└── docs/
-    └── imagens/
+README.md  
+sketch.ino  
+diagram.json  
+node-red-flow.json  
+circuito-wokwi.png  
+fluxo-node-red.png  
+debug-node-red.png  
 
 
 
 📷 Evidências do Projeto
 
 Circuito no Wokwi
-*(adicionar imagem aqui)*
+
+<img width="442" height="320" alt="image" src="https://github.com/user-attachments/assets/838ee9b0-3afb-4beb-96e0-a86076ce6726" />
+
+
 
 
 Fluxo no Node-RED
