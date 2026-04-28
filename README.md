@@ -1,10 +1,12 @@
 🩺 CarePlus Health Tracker IoT
 
+
 📌 Descrição do Projeto
 
 Este projeto consiste na simulação de um dispositivo vestível (Health Tracker) utilizando o microcontrolador ESP32. O sistema coleta dados de saúde simulados e os envia em tempo real por meio do protocolo MQTT para uma plataforma de processamento (Node-RED).
 
 A solução representa uma aplicação de **Edge Computing**, onde os dados são coletados na borda (dispositivo IoT) e transmitidos para uma camada de processamento.
+
 
 
 🎯 Objetivo
@@ -16,6 +18,7 @@ Desenvolver um sistema IoT capaz de:
 * Integrar com uma plataforma de visualização (Node-RED)
 
 
+
 🛠️ Tecnologias Utilizadas
 
 * ESP32 (simulado no Wokwi)
@@ -25,6 +28,7 @@ Desenvolver um sistema IoT capaz de:
 * MQTT (broker público HiveMQ)
 * Node-RED (executado na nuvem via FlowFuse)
 * Arduino IDE (C/C++)
+
 
 
 🧱 Arquitetura da Solução
@@ -43,11 +47,13 @@ A arquitetura do sistema segue o modelo de IoT em camadas:
 [Processamento / Debug]
 
 
+
 📡 Fluxo de Comunicação
 
 O ESP32 coleta os dados dos sensores e publica em tempo real no seguinte tópico MQTT:
 
 careplus/healthtracker/esp32_001
+
 
 
 📦 Estrutura do Payload MQTT
@@ -61,6 +67,8 @@ careplus/healthtracker/esp32_001
   "steps": 1,
   "timestamp": 12059
 }
+
+
 
 ⚙️ Funcionamento do Sistema
 
@@ -83,6 +91,8 @@ careplus/healthtracker/esp32_001
 * Converte JSON
 * Exibe no painel de debug
 
+
+
 ▶️ Como Executar o Projeto
 
 🔹 Simulação no Wokwi
@@ -99,6 +109,7 @@ careplus/healthtracker/esp32_001
 3. Os dados são exibidos no painel de debug em tempo real
 
 
+
 📁 Estrutura do Repositório
 
 ├── README.md
@@ -108,16 +119,21 @@ careplus/healthtracker/esp32_001
 └── docs/
     └── imagens/
 
+
+
 📷 Evidências do Projeto
 
 Circuito no Wokwi
 *(adicionar imagem aqui)*
 
+
 Fluxo no Node-RED
 *(adicionar imagem aqui)*
 
+
 Recebimento de dados (Debug)
 *(adicionar imagem aqui)*
+
 
 
 📊 Resultados Obtidos
@@ -126,6 +142,7 @@ Recebimento de dados (Debug)
 * Integração com MQTT realizada ✔️
 * Consumo dos dados no Node-RED ✔️
 * Simulação completa de dispositivo IoT ✔️
+
 
 
 🎯 Conclusão
@@ -138,6 +155,7 @@ A abordagem evidencia conceitos importantes como:
 * Comunicação assíncrona
 * Integração de sistemas IoT
 * Processamento de dados em tempo real
+
 
 
 🔗 Links
