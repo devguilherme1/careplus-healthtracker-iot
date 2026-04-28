@@ -9,7 +9,8 @@ A solução representa uma aplicação de **Edge Computing**, onde os dados são
 
 
 
-🎯 Objetivo
+🎯 Objetivo.
+
 Desenvolver um sistema IoT capaz de:
 
 * Coletar dados de saúde simulados
