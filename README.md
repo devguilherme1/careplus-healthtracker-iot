@@ -118,7 +118,6 @@ debug-node-red.png
 📷 Evidências do Projeto
 
 Circuito no Wokwi
-
 <img width="442" height="320" alt="image" src="https://github.com/user-attachments/assets/838ee9b0-3afb-4beb-96e0-a86076ce6726" />
 
 
@@ -159,6 +158,6 @@ A abordagem evidencia conceitos importantes como:
 
 🔗 Links
 
-* Simulação Wokwi: *(adicione aqui seu link público)*
-* Repositório GitHub: *(link do próprio repositório)*
+* Simulação Wokwi: https://wokwi.com/projects/461648932538084353
+* Repositório GitHub: https://github.com/devguilherme1/careplus-healthtracker-iot
 
