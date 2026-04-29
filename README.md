@@ -34,10 +34,8 @@ Desenvolver um sistema IoT capaz de:
 
 🧱 Arquitetura da Solução
 
-A arquitetura do sistema segue o modelo de IoT em camadas:
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b66b14ea-6057-4bdb-a438-a12353529228" />
 
-
-[ESP32 + Sensores] → MQTT → [Broker HiveMQ] → [Node-RED (FlowFuse)] → [Processamento / Debug]
 
 
 
