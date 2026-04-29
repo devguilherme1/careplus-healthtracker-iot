@@ -125,11 +125,13 @@ Circuito no Wokwi
 
 
 Fluxo no Node-RED
-*(adicionar imagem aqui)*
+<img width="717" height="418" alt="fluxo-node-red" src="https://github.com/user-attachments/assets/f9b9ecc2-2555-406b-b00b-443a1fc69bc4" />
+
 
 
 Recebimento de dados (Debug)
-*(adicionar imagem aqui)*
+<img width="473" height="788" alt="debug-node-red" src="https://github.com/user-attachments/assets/fbc5b127-814a-4c7b-a950-1f1ccaf17d0a" />
+
 
 
 
