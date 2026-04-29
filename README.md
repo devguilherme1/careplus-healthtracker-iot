@@ -32,7 +32,7 @@ Desenvolver um sistema IoT capaz de:
 
 
 
-🧱 Arquitetura da Solução
+🧱 Diagrama da arquitetura.
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b66b14ea-6057-4bdb-a438-a12353529228" />
 
